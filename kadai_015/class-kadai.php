@@ -55,8 +55,8 @@
             */
         }
 
-        $Food = new Food('potato', 250);
-        $Animal = new Animal('dog', 60, 5000);
+        $Food = new Food('potato', 250);            // funatsu:変数名は先頭小文字、potetoでいいです
+        $Animal = new Animal('dog', 60, 5000);      // funatsu:変数名は先頭小文字、dogでいいです
 
         print_r($Food);
         echo '<br>';
